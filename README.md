@@ -24,7 +24,7 @@ Then, In you backup.pp
     }
 
 In your init.pp 
-(Don't forget to copy original init.pp into this.)
+
     class <module_name> {
       contain <module_name>::install
       contain <module_name>::config
